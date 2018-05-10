@@ -1,5 +1,5 @@
 # Freshman-Sucks
-##Ahnaf Hasan, Ying Xin Jiang, Kevin Wang
+## Ahnaf Hasan, Ying Xin Jiang, Kevin Wang
 
 void add( String x )  
 x placed at correct place in array (greatest to lowest) 
