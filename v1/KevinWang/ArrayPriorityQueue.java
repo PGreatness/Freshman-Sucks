@@ -7,7 +7,7 @@ HW #46 -- Arrr, There Be Priorities Here Matey
 
 import java.util.ArrayList;
 
-public class ArrayPriorityQueue {
+public class ArrayPriorityQueue implements PriorityQueue {
 
     ArrayList<String> data;
 
