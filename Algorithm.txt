@@ -1,0 +1,17 @@
+//Ying Xin Jiang
+//APCS2 pd8
+//HW48 -- Heap o’ Trouble
+//2018-05-14
+
+Adding:
+1. Add in new element as root on last level
+2. Compare value with value of parent element 
+3. Swap indices if comparison doesn’t follow min/max heap rules
+4. Repeat step 2 until heap follows either min/max heap rules
+
+Removing:
+1. If node is a root, delete it from the array & replaced with null
+2. If node had one child, swap with the child & set to null
+3. If node has two children, swap with right child & continue swapping down until it becomes the root
+	a) Set old parent to null & delete from array
+	b) Check tree to make sure it follows min/max heap rules
