@@ -1,4 +1,4 @@
-# Freshman-Sucks
+# QueuedUp
 ## Ahnaf Hasan, Ying Xin Jiang, Kevin Wang
 
 void add( String x )  
