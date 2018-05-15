@@ -21,3 +21,14 @@ returns the minimum priority
 String toString() 
 returns String form of array  
 0(n)  
+
+# heap todo
+
+* toString()
+* isEmpty()
+* peekMin()
+* swap()
+* add()
+* minOf()
+* minChildPos()
+* removeMin()
