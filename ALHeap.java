@@ -1,4 +1,4 @@
-//Ahnaf Hasan
+//Ahnaf Hasan, Ying Xing Jiang, Kevin Wang
 //APCS2 pd08
 //HW49 -- Sink || Swim
 //2018-05-15
