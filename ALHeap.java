@@ -80,8 +80,17 @@ public class ALHeap
      *****************************************************/
     public void add( Integer addVal )
     {
-	_heap.add(addVal); //conditioning allows normal adding
-    }//O(1)
+	if (_heap.size() == 0) { //heap is empty
+	    _heap.add(addVal); //normal add
+	}else{ //heap has at least 1 item
+	    _heap.add(addVal); //add to back to traverse
+	    for (int i = _heap.size() - 1; i > 0; i--) { //starting at the back
+		if (_heap.get(i - 1) > _heap.get(i)) { //if the previous is larger
+		    swap(i - 1, i); //swap
+		}
+	    }//heap has added value in correct position
+	}
+    }//O(n)
 
 
     /*****************************************************
@@ -107,7 +116,7 @@ public class ALHeap
 		break;
 	    }
 	}
-	int minChild = minChildPos(minPos); //position of the min child of posiiton
+	int minChild = minChildPos(minPos); //position of the min child
 	if (minChild + 1 == 0) { //child doesn't exist
 	    _heap.remove(minPos); //normal remove
 	}else{
