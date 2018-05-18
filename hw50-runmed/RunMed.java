@@ -1,8 +1,11 @@
+//Ahnaf Hasan, Ying Xing Jiang, Kevin Wang
+//APCS2 pd08
+//HW50 -- Run Run Run
+//2018-05-18
+
+
 import java.util.NoSuchElementException;
 
-/**
- * RunMed
- */
 public class RunMed {
     private ALHeapMin minHeap;
     private ALHeapMax maxHeap;
