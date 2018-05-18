@@ -1,3 +1,5 @@
+import java.util.NoSuchElementException;
+
 /**
  * RunMed
  */
@@ -72,6 +74,9 @@ public class RunMed {
      * @return Integer that is the median
      */
     public Integer getMedian() { //return median of heaps
+        if (minCount == 0 && maxCount == 0) {
+            throw new NoSuchElementException();
+        }
         if (minCount == maxCount) { //size equal, return root of any
             return minHeap.peekMin();
         }else{ //size varies by 1
